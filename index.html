@@ -49,15 +49,13 @@
       </div>
 
       <h3 class="typewriter">Hi, I am <span class="highlight-name">Kelvin Kario</span></h3>
-      <h5 class="text-muted">IT Support Analyst || Web Developer</h5>
+      <h5 class="text-muted">IT Support Analyst || Front-end Developer || Web Developer</h5>
 
       <div class="mt-4">
        
-        <button class="btn btn-custom" onclick="downloadCV()">
-          <i class="fa-solid fa-download"></i> Download CV
+                <button class="btn btn-custom ms-2" onclick="downloadcv()">
+          <i class="fa-solid fa-file-lines"></i> Download CV.
         </button>
-
-      
         <button class="btn btn-custom ms-2" onclick="downloadTestimonials()">
           <i class="fa-solid fa-file-lines"></i> Download Testimonials
         </button>
@@ -113,8 +111,8 @@
           <i class="fa-solid fa-code skill-icon"></i>
           <h5>Programming</h5>
           <p>Experienced in developing interactive web applications using HTML, CSS, Django Python, JavaScript, and PHP.</p>
-          <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
-          <small>70%</small>
+          <div class="progress"><div class="progress-bar" style="width: 88%"></div></div>
+          <small>88%</small>
         </div>
       </div>
 
@@ -173,8 +171,8 @@
           <i class="fa-solid fa-palette skill-icon"></i>
           <h5>Graphic Design & Content Creation</h5>
           <p>Designing posters, flyers, and marketing content using Canva, Adobe Photoshop, and similar tools.</p>
-          <div class="progress"><div class="progress-bar" style="width: 89%"></div></div>
-          <small>89%</small>
+          <div class="progress"><div class="progress-bar" style="width: 95%"></div></div>
+          <small>95%</small>
         </div>
       </div>
 
@@ -476,10 +474,10 @@
 
   <!-- Download functions (ensure file path matches your assets folder) -->
   <script>
-    function downloadCV() {
+      function downloadcv() {
       const link = document.createElement('a');
       // adjust the filename/path if different in your project
-      link.href = 'assets/CURRICULLUM VITAE-KELVIN KINYUA KARIO.pdf';
+      link.href = 'assets/CURRICULLUM VITAE-KELVIN_K_KARIO. pdf';
       link.download = 'CURRICULLUM VITAE - KELVIN KARIO.pdf';
       document.body.appendChild(link);
       link.click();
